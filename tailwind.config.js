@@ -22,7 +22,13 @@ export default {
       'desktop': '1280px',
       // => @media (min-width: 1280px) 
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-mobile': "url('src/components/HeroSection/Images/hero-mobile.png')",
+        'hero-tablet': "url('src/components/HeroSection/Images/hero-tablet.png')",
+        'hero-desktop': "url('src/components/HeroSection/Images/hero-desktop.png')",
+      }
+    },
   },
   plugins: [],
 }

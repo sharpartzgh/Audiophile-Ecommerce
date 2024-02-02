@@ -4,6 +4,7 @@ import { BsEarbuds } from "react-icons/bs";
 import logo from '../Header/audiophile.png'
 import { IoCartOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+import Hero from '../HeroSection/Hero';
 
 const Header = () => {
 
@@ -16,7 +17,7 @@ const Header = () => {
 
   return (
   <>
-    <div className="container__wrapper">
+    <div className="container__wrapper mobile:bg-hero-mobile mobile:bg-center mobile:bg-no-repeat mobile:bg-cover mobile:h-[600px] tablet:bg-hero-tablet tablet:bg-center tablet:bg-no-repeat tablet:bg-cover tablet:h-[720px] laptop:bg-hero-desktop laptop:bg-no-repeat laptop:bg-cover">
           {/* header section */}
           <header className="header__wrapper bg-[#0E0E0E] px-10 pt-5 pb-5 border-b-[1px] border-gray-700 flex items-center justify-between font-Manrope">
             <div className="logo_menu_wrapper flex items-center justify-between tablet:gap-6 ">
@@ -32,8 +33,8 @@ const Header = () => {
                 { openMenu &&
                   ( <nav className="list-items absolute text-white top-[81px] left-0 min-h-screen bg-[#0E0E0E] w-full font-light">
                    <ul className=" w-full flex flex-col items-center text-2xl gap-8 py-10 tablet:items-start tablet:pl-10">
-                    <Link to='/Homepage'className=" flex items-center gap-5"><span className="mobile:hidden"><MdHome className="w-8 h-8"/></span>HOME</Link>
-                    <Link to='/Headpones' className=" flex items-center gap-5"><span className="mobile:hidden"><MdHeadphones className="w-8 h-8"/></span>HEADPHONES</Link>
+                    <Link to='/Home'className=" flex items-center gap-5"><span className="mobile:hidden"><MdHome className="w-8 h-8"/></span>HOME</Link>
+                    <Link to='/Headphones' className=" flex items-center gap-5"><span className="mobile:hidden"><MdHeadphones className="w-8 h-8"/></span>HEADPHONES</Link>
                     <Link to='/Speakers' className=" flex items-center gap-5"><span className="mobile:hidden"><MdSpeaker className="w-8 h-8"/></span>SPEAKERS</Link>
                     <Link to='/Earphones' className=" flex items-center gap-5"><span className="mobile:hidden"><BsEarbuds className="w-8 h-8"/></span>EARPHONES</Link>
                    </ul>
@@ -54,7 +55,7 @@ const Header = () => {
             {/* Nav items */}
             <nav className="list-items text-white mobile:hidden tablet:hidden laptop:contents">
               <ul className=" flex gap-4 cursor-pointer">
-               <Link to='/Homepage' className="hover:text-[#D87D4A]">HOME</Link>
+               <Link to='/Home' className="hover:text-[#D87D4A]">HOME</Link>
                <Link to='/Headpones' className="hover:text-[#D87D4A]" >HEADPHONES</Link>
                <Link to='/Speakers' className="hover:text-[#D87D4A]">SPEAKERS</Link>
                <Link to='/Earphones' className="hover:text-[#D87D4A]">EARPHONES</Link>
@@ -65,6 +66,7 @@ const Header = () => {
             <IoCartOutline className="cart h-10 w-10 text-white" />
             </div>
           </header>
+          <Hero/>
       </div>
   </>
   )
