@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
   <>
-    <div className="container__wrapper mobile:bg-hero-mobile mobile:bg-center mobile:bg-no-repeat mobile:bg-cover mobile:h-[600px] tablet:bg-hero-tablet tablet:bg-center tablet:bg-no-repeat tablet:bg-cover tablet:h-[720px] laptop:bg-hero-desktop laptop:bg-no-repeat laptop:bg-cover">
+    <div className="container__wrapper">
           {/* header section */}
           <header className="header__wrapper bg-[#0E0E0E] px-10 pt-5 pb-5 border-b-[1px] border-gray-700 flex items-center justify-between font-Manrope">
             <div className="logo_menu_wrapper flex items-center justify-between tablet:gap-6 ">
@@ -56,7 +56,7 @@ const Header = () => {
             <nav className="list-items text-white mobile:hidden tablet:hidden laptop:contents">
               <ul className=" flex gap-4 cursor-pointer">
                <Link to='/Home' className="hover:text-[#D87D4A]">HOME</Link>
-               <Link to='/Headpones' className="hover:text-[#D87D4A]" >HEADPHONES</Link>
+               <Link to='/Headphones' className="hover:text-[#D87D4A]" >HEADPHONES</Link>
                <Link to='/Speakers' className="hover:text-[#D87D4A]">SPEAKERS</Link>
                <Link to='/Earphones' className="hover:text-[#D87D4A]">EARPHONES</Link>
               </ul>
@@ -66,7 +66,6 @@ const Header = () => {
             <IoCartOutline className="cart h-10 w-10 text-white" />
             </div>
           </header>
-          <Hero/>
       </div>
   </>
   )
