@@ -4,7 +4,6 @@ import { BsEarbuds } from "react-icons/bs";
 import logo from '../Header/audiophile.png'
 import { IoCartOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
-import Hero from '../HeroSection/Hero';
 
 const Header = () => {
 
