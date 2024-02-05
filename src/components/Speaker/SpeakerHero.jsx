@@ -17,7 +17,7 @@ const SpeakerHero = () => {
 
   return (
     <>
-      <div className="ad__wrapper  font-Manrope bg-[#D87D4A] mobile:h-[]  tablet:flex tablet:justify-center mobile:mb-10 ">
+      <div className="ad__wrapper  font-Manrope bg-[#D87D4A] mobile:h-[]  tablet:flex tablet:justify-center mb-10 ">
         
         { info.map((item)=>(
           <div key={item.id} className="inner__wrapper mobile:items-center mobile:py-10 flex flex-col tablet:py-8 laptop:flex-row tablet:items-center laptop:items-center laptop:justify-center laptop:gap-20 laptop:px-10 ">
