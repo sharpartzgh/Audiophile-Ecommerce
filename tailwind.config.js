@@ -37,6 +37,11 @@ export default {
                 't-mobile': "url('resources/assets/home/mobile/image-earphones-yx1.jpg')",
                 't-tablet': "url('resources/assets/home/tablet/image-earphones-yx1.jpg')",
                 't-laptop': "url('resources/assets/home/desktop/image-earphones-yx1.jpg')",
+
+                // images background images for ads section
+                'bestgear1': "url('resources/assets/shared/mobile/image-best-gear.jpg')",
+                'bestgear2': "url('resources/assets/shared/tablet/image-best-gear.jpg')",
+                'bestgear3': "url('resources/assets/shared/desktop/image-best-gear.jpg')",
       }
     },
   },
