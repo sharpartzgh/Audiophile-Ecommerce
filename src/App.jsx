@@ -12,7 +12,7 @@ function App(){
   return (
     <>
       <div className="app__wrapper min-h-screen bg-[#FAFAFA]">
-        <Header/>
+        <Header/> 
         <div className="Router__wrapper">
           <Routes>
             <Route path="/Home" element={<Homepage/>}/>

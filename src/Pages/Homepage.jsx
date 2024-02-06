@@ -5,6 +5,8 @@ import SpeakerHero from '../components/Speaker/SpeakerHero'
 import Speaker2 from '../components/Section/Speaker2'
 import EarphoneAds from '../components/Section/Earphone/EarphoneAds'
 import Ads from '../components/Section/Ads/Ads'
+import Footer from '../components/Footer/Footer'
+
 
 const Homepage = () => {
   return (
@@ -18,6 +20,7 @@ const Homepage = () => {
         <EarphoneAds/>
         <Ads/>
       </div>
+      <Footer/>
      </div>
     </>
   )
