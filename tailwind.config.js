@@ -42,6 +42,38 @@ export default {
                 'bestgear1': "url('resources/assets/shared/mobile/image-best-gear.jpg')",
                 'bestgear2': "url('resources/assets/shared/tablet/image-best-gear.jpg')",
                 'bestgear3': "url('resources/assets/shared/desktop/image-best-gear.jpg')",
+
+        // category images headphones
+        'head-mobile': "url('resources/assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg')",
+        'head-tablet': "url('resources/assets/product-xx99-mark-two-headphones/tablet/image-category-page-preview.jpg')",
+        'head-laptop': "url('resources/assets/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg')",
+           
+          // second images section for headphones devices
+            'head-2-mobile': "url('resources/assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg')",
+            'head-3-tablet': "url('resources/assets/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg')",
+            'head-4-laptop': "url('resources/assets/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg')",
+
+              // third images section for headphones devices 
+              'head-5-mobile': "url('resources/assets/product-xx59-headphones/mobile/image-category-page-preview.jpg')",
+              'head-6-tablet': "url('resources/assets/product-xx59-headphones/tablet/image-category-page-preview.jpg')",
+              'head-7-laptop': "url('resources/assets/product-xx59-headphones/desktop/image-category-page-preview.jpg')",
+
+
+        // category images speakers
+
+        'speaker-mobile': "url('resources/assets/product-zx9-speaker/mobile/image-category-page-preview.jpg')",
+        'speaker-tablet': "url('resources/assets/product-zx9-speaker/tablet/image-category-page-preview.jpg')",
+        'speaker-laptop': "url('resources/assets/product-zx9-speaker/desktop/image-category-page-preview.jpg')",
+
+            // second images for speakers
+            'speaker-2-mobile': "url('resources/assets/product-zx7-speaker/mobile/image-category-page-preview.jpg')",
+            'speaker-3-tablet': "url('resources/assets/product-zx7-speaker/tablet/image-category-page-preview.jpg')",
+            'speaker-4-laptop': "url('resources/assets/product-zx7-speaker/desktop/image-category-page-preview.jpg')",
+
+        // category images earphones
+        'earphone-mobile': "url('resources/assets/product-yx1-earphones/mobile/image-category-page-preview.jpg')",
+        'earphone-tablet': "url('resources/assets/product-yx1-earphones/tablet/image-category-page-preview.jpg')",
+        'earphone-laptop': "url('resources/assets/product-yx1-earphones/desktop/image-category-page-preview.jpg')",
       }
     },
   },
