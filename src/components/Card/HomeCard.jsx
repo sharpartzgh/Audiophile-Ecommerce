@@ -10,17 +10,20 @@ const HomeCard = () => {
     {
       "id": 1,
       "name": "HEADPHONES",
-      "image": "../headphones.png"
+      "image": "../headphones.png",
+      "shop": "/Headphones",
     },
     {
       "id": 2,
       "name": "SPEAKERS",
-      "image": "./speakers.png"
+      "image": "./speakers.png",
+      "shop": "/Speakers",
     },
     {
       "id": 3,
       "name": "EARPHONES",
-      "image": "./earphones.png"
+      "image": "./earphones.png",
+      "shop": "/Earphones",
     }
   ];
 
@@ -34,7 +37,7 @@ const HomeCard = () => {
             <div className="text mobile:pt-16 tablet:pt-24">
               <p className="font-bold tracking-[1.07px]">{item.name}</p>
               <div className="shoptext">
-                <Link className="justify-center flex items-center gap-3">Shop<span className="text-[#d87d4a] text-[20px]"> &gt;</span></Link>
+                <Link to={item.shop} className="justify-center flex items-center gap-3">Shop<span className="text-[#d87d4a] text-[20px]"> &gt;</span></Link>
               </div>
             </div>
           </div>

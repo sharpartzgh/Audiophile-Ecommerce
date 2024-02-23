@@ -4,6 +4,7 @@ import { BsEarbuds } from "react-icons/bs";
 import logo from '../Header/audiophile.png'
 import { IoCartOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+import Cart from '../Cart/Cart';
 
 const Header = () => {
 
@@ -12,6 +13,13 @@ const Header = () => {
 
     const handleOpenMenu = () => {
       setOpenMenu(!openMenu)
+    }
+
+    // using this function to trigger the cart icon to open
+    const [ openCart, setOpenCart ] = useState(false)
+
+    const handleOpenCart = () => {
+      setOpenCart(!openCart)
     }
 
   return (
@@ -60,9 +68,14 @@ const Header = () => {
                <Link to='/Earphones' className="hover:text-[#D87D4A]">EARPHONES</Link>
               </ul>
             </nav>
+
             {/* Cart Icon */}
-            <div>
-            <IoCartOutline className="cart h-10 w-10 text-white" />
+
+            <div className="">  
+            <IoCartOutline className="cart h-10 w-10 text-white" onClick={handleOpenCart} />
+              {openCart && (
+              <Cart/>
+              )}
             </div>
           </header>
       </div>

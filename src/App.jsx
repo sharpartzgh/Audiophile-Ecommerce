@@ -6,7 +6,7 @@ import Earphones from './Pages/Earphones'
 import Speakers from './Pages/Speakers'
 import Headphones from './Pages/Headphones'
 import Header from './components/Header/Header'
-
+import DetailPage from './Pages/DetailPage'
 
 function App(){
   return (
@@ -19,6 +19,7 @@ function App(){
             <Route path="/Headphones" element={<Headphones/>}/>
             <Route path="/Speakers" element={ <Speakers/>}/>
             <Route path="/Earphones" element={<Earphones/>}/>
+            <Route path="/DetailPage" element={<DetailPage/>}/>
           </Routes>
         </div>
       </div>
