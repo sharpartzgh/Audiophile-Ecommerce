@@ -7,6 +7,7 @@ import Speakers from './Pages/Speakers'
 import Headphones from './Pages/Headphones'
 import Header from './components/Header/Header'
 import DetailPage from './Pages/DetailPage'
+import CheckoutCard from './components/Checkout/CheckoutCard'
 
 function App(){
   return (
@@ -20,6 +21,7 @@ function App(){
             <Route path="/Speakers" element={ <Speakers/>}/>
             <Route path="/Earphones" element={<Earphones/>}/>
             <Route path="/DetailPage" element={<DetailPage/>}/>
+            <Route path='/checkout' element={ <CheckoutCard/> }/>
           </Routes>
         </div>
       </div>

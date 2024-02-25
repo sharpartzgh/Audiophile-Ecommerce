@@ -36,7 +36,8 @@ function Cart() {
               </div>
               <div className="my-auto text-base leading-6 underline cursor-pointer" onClick={removeAllItems}>Remove all</div>
             </div>
-          
+            {/* This section will contain the added to cart item component */}
+           
             <div className="flex gap-5 justify-between mt-9">
               <div className="my-auto text-base leading-6">TOTAL</div>
               <div className="text-lg font-bold text-center uppercase">${currentPrice}</div>
