@@ -39,7 +39,7 @@ const Payment = () => {
         </div>
 
         <div className="cash w-[280px] p-4 border-2 rounded-lg text-[14] ">
-          <input  className=" mr-3 text-[14px]"
+          <input  className=" mr-3 text-[14px] text-[#D87D4A]"
             required
             id="cash"
             type="radio"

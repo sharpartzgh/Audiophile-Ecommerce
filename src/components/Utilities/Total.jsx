@@ -1,4 +1,4 @@
-import cartData from "../Data/CartData";
+import cartData from "../Data/cartData";
 import countItemsInCart from "./Count";
 
 const Total = (cartArr) => {
