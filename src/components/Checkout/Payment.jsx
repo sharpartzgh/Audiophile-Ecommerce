@@ -26,7 +26,7 @@ const Payment = () => {
 
      
         <div className="e_money__section mb-5 w-[280px] mt-2 p-4 border-2 rounded-lg text-[14] flex items-center">
-          <input className=" mr-3 text-[14px] text-[#D87D4A]"
+          <input className=" mr-3 text-[14px] accent-[#D87D4A]"
             required
             id="e-money"
             type="radio"
@@ -39,7 +39,7 @@ const Payment = () => {
         </div>
 
         <div className="cash w-[280px] p-4 border-2 rounded-lg text-[14] ">
-          <input  className=" mr-3 text-[14px] text-[#D87D4A]"
+          <input  className=" mr-3 text-[14px] accent-[#D87D4A]"
             required
             id="cash"
             type="radio"
