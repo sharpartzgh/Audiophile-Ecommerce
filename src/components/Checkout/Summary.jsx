@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { CartContext } from "../../Cart/CartProvider";
-import cartData from "../Data/cartData";
+import cartData from "../../components/Data/CartData";
 import countItemsInCart from "../Utilities/Count";
 import total from "../Utilities/Total";
 
